@@ -2,33 +2,18 @@ import React, { useState, useRef } from 'react';
 import { Github, ExternalLink, Shield, Film, Home } from 'lucide-react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-
+import { Gift } from "lucide-react";
+import img from "./img/image.png"
 const projects = [
-  {
-    id: 'cyber',
-    title: 'Cyber Attack Predictor',
-    description: 'ML-based cybersecurity tool achieving 95% accuracy in detecting and classifying cyber attacks using network traffic data.',
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80',
-    tech: ['React', 'FastAPI', 'Python', 'Scikit-learn', 'XGBoost'],
-    github: '#',
-    demo: '#',
-    icon: Shield,
-    color: 'bg-purple-100',
-    highlights: [
-      'Interactive React frontend for visualization',
-      'FastAPI backend for real-time predictions',
-      'Fine-tuned XGBoost model with 95% accuracy',
-      'Comprehensive data preprocessing pipeline'
-    ]
-  },
+  
   {
     id: 'movies',
     title: 'Movies Browser',
     description: 'A responsive and interactive platform to explore trending and upcoming movies using TMDb API.',
     image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=2225&q=80',
     tech: ['React.js', 'TMDb API', 'HTML', 'CSS', 'JavaScript'],
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/Rush9970/flixsScore',
+    demo: 'https://flixscore.netlify.app/',
     icon: Film,
     color: 'bg-blue-100',
     highlights: [
@@ -36,6 +21,41 @@ const projects = [
       'Dynamic routing and state management',
       'Genre-based filtering system',
       'Responsive design across devices'
+    ]
+  },
+
+  {
+    id: 'birthday-wisher',
+    title: 'Birthday Wisher with Countdown',
+    description: 'Fun and interactive React app to create personalized birthday countdowns and wishes!',
+    image: img, // Replace with actual screenshot URL if available
+    tech: ['React', 'React Hooks', 'React Router', 'CSS'],
+    github: 'https://github.com/Rush9970/BirthDayCountdown1', // Replace with actual GitHub repo link
+    demo: 'https://birthdaycountdwn.netlify.app/',
+    icon: Gift, // Replace with an icon import like `import { Gift } from "lucide-react";`
+    color: 'bg-pink-100',
+    highlights: [
+      'Personalized birthday countdown timer ⏲️',
+      'Users can generate sharable birthday wish links 🎁',
+      'Fully responsive design with customizable styles 💅',
+      'Built using React with Hooks and React Router 🛠️'
+    ]
+  },  
+  {
+    id: 'cyber',
+    title: 'Cyber Attack Predictor',
+    description: 'ML-based cybersecurity tool achieving 95% accuracy in detecting and classifying cyber attacks using network traffic data.',
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80',
+    tech: ['React', 'FastAPI', 'Python', 'Scikit-learn', 'XGBoost'],
+    github: 'https://github.com/Rush9970/Cyber-Attack-Pretdictor',
+    demo: 'https://attackp.netlify.app/',
+    icon: Shield,
+    color: 'bg-purple-100',
+    highlights: [
+      'Interactive React frontend for visualization',
+      'FastAPI backend for real-time predictions',
+      'Fine-tuned XGBoost model with 95% accuracy',
+      'Comprehensive data preprocessing pipeline'
     ]
   },
   {
