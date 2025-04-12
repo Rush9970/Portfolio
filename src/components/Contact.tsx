@@ -13,14 +13,14 @@ export function Contact() {
           </p>
           <div className="flex justify-center gap-8">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:ch22b023@smail.iitm.ac.in"
               className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
             >
               <Mail className="w-6 h-6" />
               Email
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Rush9970"
               className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
             >
               <Github className="w-6 h-6" />
