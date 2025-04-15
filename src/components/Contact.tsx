@@ -27,7 +27,7 @@ export function Contact() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/rushikesh-k/"
               className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
             >
               <Linkedin className="w-6 h-6" />
