@@ -80,7 +80,7 @@ const projects = [
     title: 'To-Do List Manager',
     description: 'A sleek and minimalistic to-do list app to manage daily tasks efficiently with add, delete, and toggle features.',
     image: 'https://images.unsplash.com/photo-1598791318878-10e76d178023?ixlib=rb-4.0.3&auto=format&fit=crop&w=2225&q=80',
-    tech: ['React', 'JavaScript', 'HTML', 'CSS'],
+    tech: ['React', 'JavaScript','MongoDb', 'HTML', 'CSS'],
     github: 'https://github.com/Rush9970/todoListApp', // Replace if different
     demo: 'https://todolistappdemo.netlify.app/', // Replace if different
     icon: ClipboardList, // You can also use 'List' or 'CheckSquare' from Lucide if available
