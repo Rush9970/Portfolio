@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Github, ExternalLink, Shield, Film, Home } from 'lucide-react';
+import { Github, ExternalLink, Shield, Film, Home, ClipboardList } from 'lucide-react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Gift } from "lucide-react";
@@ -74,7 +74,27 @@ const projects = [
       'Multiple ML model comparison',
       'RMSE-based evaluation metrics'
     ]
+  },
+  {
+    id: 'todo',
+    title: 'To-Do List Manager',
+    description: 'A sleek and minimalistic to-do list app to manage daily tasks efficiently with add, delete, and toggle features.',
+    image: 'https://images.unsplash.com/photo-1598791318878-10e76d178023?ixlib=rb-4.0.3&auto=format&fit=crop&w=2225&q=80',
+    tech: ['React', 'JavaScript', 'HTML', 'CSS'],
+    github: 'https://github.com/Rush9970/todoListApp', // Replace if different
+    demo: 'https://todolistappdemo.netlify.app/', // Replace if different
+    icon: ClipboardList, // You can also use 'List' or 'CheckSquare' from Lucide if available
+    color: 'bg-green-100',
+    highlights: [
+      'Add, delete, and mark tasks as completed',
+      'Responsive and user-friendly interface',
+      'LocalStorage integration for persistent tasks',
+      'Clean and minimalist design using React'
+    ]
   }
+  
+  
+  
 ];
 
 const ProjectCard = ({ project, index, activeIndex, totalProjects }) => {
