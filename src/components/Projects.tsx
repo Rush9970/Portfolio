@@ -82,7 +82,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1598791318878-10e76d178023?ixlib=rb-4.0.3&auto=format&fit=crop&w=2225&q=80',
     tech: ['React', 'JavaScript','MongoDb', 'HTML', 'CSS'],
     github: 'https://github.com/Rush9970/todoListApp', // Replace if different
-    demo: 'https://todolistappdemo.netlify.app/', // Replace if different
+    demo: 'https://taskflowap.netlify.app/', // Replace if different
     icon: ClipboardList, // You can also use 'List' or 'CheckSquare' from Lucide if available
     color: 'bg-green-100',
     highlights: [
